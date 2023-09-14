@@ -59,3 +59,8 @@ SELECT MAX(price) AS 'MOST EXPENSIVE',
 MIN(price) AS 'LEAST EXPENSIVE', 
 AVG(price) AS 'AVERAGE PRICE' 
 FROM books
+
+3) 
+SELECT MAX(price)
+FROM books
+WHERE type = 'used'
