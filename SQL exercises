@@ -1,4 +1,6 @@
 yl21)
+
+
 1) SELECT * FROM booksstore.books;
 
 2) SELECT * FROM booksstore.books WHERE release_date > '2010' AND type = 'new' ORDER BY 'title';
@@ -50,4 +52,10 @@ yl22)
 1) 
 SELECT price, stock_saldo,
 SUM(price * stock_saldo) AS 'TOTAL'
+FROM books
+
+2)
+SELECT MAX(price) AS 'MOST EXPENSIVE', 
+MIN(price) AS 'LEAST EXPENSIVE', 
+AVG(price) AS 'AVERAGE PRICE' 
 FROM books
