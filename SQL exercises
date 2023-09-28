@@ -1,5 +1,6 @@
-yl21)
+https://docs.google.com/document/d/1BOtkj0-0rNvmj_ESpcQLdPUtjNos2YYMT4epHNlbjy4/edit
 
+yl21)
 
 1) SELECT * FROM booksstore.books;
 
@@ -64,3 +65,15 @@ FROM books
 SELECT MAX(price)
 FROM books
 WHERE type = 'used'
+
+5)
+SELECT type AS 'tüüp',
+price AS 'Hind',
+title AS 'Pealkiri'
+FROM books
+WHERE type = 'used' AND price > (
+SELECT AVG(price)
+FROM books
+WHERE type = 'new'
+)
+ORDER BY price
