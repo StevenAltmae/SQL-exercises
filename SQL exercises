@@ -77,3 +77,11 @@ FROM books
 WHERE type = 'new'
 )
 ORDER BY price
+
+6)
+
+yl23)
+
+1)
+INSERT INTO clients (username, first_name, last_name, email, password, address)
+VALUES ('Steven123', 'Kristo-Steven', 'Altmäe', 'kristo-steven.altmae@ametikool.ee', 'test123', 'tänav 123')
