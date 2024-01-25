@@ -117,3 +117,8 @@ VALUES ('Steven123', 'Kristo-Steven', 'Altmäe', 'kristo-steven.altmae@ametikool
 ('Steven123', 'Kristo-Steven', 'Altmäe', 'kristo-steven.altmae@ametikool.ee', 'test123', 'tänav 123')
 
 5)
+
+6)
+UPDATE books SET price = price * 1.05, pages = pages + 5;
+
+7)
